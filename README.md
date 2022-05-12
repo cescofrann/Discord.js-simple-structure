@@ -2,14 +2,14 @@
 A simple discord js structor for your bot. It is usefull for slash commands too.
 
 # To Start the bot
-Per avviare il file installate prima le librerie corrette.
-npm install discord.js
-npm install @discordjs/builders
+open cmd:
+   npm install discord.js
+   npm install @discordjs/builders
+
+double click > start.bat
 
 
-
-
-## How to config ?
+# How to config ?
 
 ```json
 //config.json
