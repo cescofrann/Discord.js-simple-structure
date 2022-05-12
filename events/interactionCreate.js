@@ -1,38 +1,257 @@
 module.exports = {
   name: 'interactionCreate',
   async execute(interaction, client) {
-    // ---------- VERIFICA ---------
-    if (!interaction.isButton()){ return } 
-    else{
-      if (interaction.customId == "verifica") {
-        if(interaction.member.roles.cache.has('947221078109990933')){
-          
-          return (
-            interaction.reply({content:'Hai già superato la verifica.', ephemeral:true }),
-            interaction.followUp({content: 'Perché sei ancora qua ?! Vai ad esplorare il server' + interaction.user.toString(), ephemeral: true}))
-          
-        }else{
-          return(
-            interaction.member.roles.add('947221078109990933'),
-            interaction.reply({
-              content: 'Benvenuto nel server ! Ti sei appena verificato. Fatti un giro, se hai qualche dubbio scrivi pure in un ticket il tuo problema.',
-              ephemeral: true
-          })
-          )
-        }
-      } 
-    } 
 
-    // ----------- COMANDI -----------
-    // if (!interaction.isCommand()) { return }
-    // else{
-    //   if (!interaction.isCommand()) return
+    
+                                                                                                                                       
+    // dddddddd
+    // DDDDDDDDDDDDD                                  tttt          BBBBBBBBBBBBBBBBB                                                 d::::::d
+    // D::::::::::::DDD                            ttt:::t          B::::::::::::::::B                                                d::::::d
+    // D:::::::::::::::DD                          t:::::t          B::::::BBBBBB:::::B                                               d::::::d
+    // DDD:::::DDDDD:::::D                         t:::::t          BB:::::B     B:::::B                                              d:::::d 
+    //   D:::::D    D:::::D    ooooooooooo   ttttttt:::::ttttttt      B::::B     B:::::Buuuuuu    uuuuuunnnn  nnnnnnnn        ddddddddd:::::d 
+    //   D:::::D     D:::::D oo:::::::::::oo t:::::::::::::::::t      B::::B     B:::::Bu::::u    u::::un:::nn::::::::nn    dd::::::::::::::d 
+    //   D:::::D     D:::::Do:::::::::::::::ot:::::::::::::::::t      B::::BBBBBB:::::B u::::u    u::::un::::::::::::::nn  d::::::::::::::::d 
+    //   D:::::D     D:::::Do:::::ooooo:::::otttttt:::::::tttttt      B:::::::::::::BB  u::::u    u::::unn:::::::::::::::nd:::::::ddddd:::::d 
+    //   D:::::D     D:::::Do::::o     o::::o      t:::::t            B::::BBBBBB:::::B u::::u    u::::u  n:::::nnnn:::::nd::::::d    d:::::d 
+    //   D:::::D     D:::::Do::::o     o::::o      t:::::t            B::::B     B:::::Bu::::u    u::::u  n::::n    n::::nd:::::d     d:::::d 
+    //   D:::::D     D:::::Do::::o     o::::o      t:::::t            B::::B     B:::::Bu::::u    u::::u  n::::n    n::::nd:::::d     d:::::d 
+    //   D:::::D    D:::::D o::::o     o::::o      t:::::t    tttttt  B::::B     B:::::Bu:::::uuuu:::::u  n::::n    n::::nd:::::d     d:::::d 
+    // DDD:::::DDDDD:::::D  o:::::ooooo:::::o      t::::::tttt:::::tBB:::::BBBBBB::::::Bu:::::::::::::::uun::::n    n::::nd::::::ddddd::::::dd
+    // D:::::::::::::::DD   o:::::::::::::::o      tt::::::::::::::tB:::::::::::::::::B  u:::::::::::::::un::::n    n::::n d:::::::::::::::::d
+    // D::::::::::::DDD      oo:::::::::::oo         tt:::::::::::ttB::::::::::::::::B    uu::::::::uu:::un::::n    n::::n  d:::::::::ddd::::d
+    // DDDDDDDDDDDDD           ooooooooooo             ttttttttttt  BBBBBBBBBBBBBBBBB       uuuuuuuu  uuuunnnnnn    nnnnnn   ddddddddd   ddddd
+                                                                                                                                           
+                                                                                                                                           
+                                                                                                                                           
+         
+    
 
-    //   const command = client.commands.get(interaction.commandName)
-    //   if (!command) return
-  
-    //   command.execute(interaction)
-      
-    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+// .########...#######..########.########..##.....##.##....##.########.
+// .##.....##.##.....##....##....##.....##.##.....##.###...##.##.....##
+// .##.....##.##.....##....##....##.....##.##.....##.####..##.##.....##
+// .##.....##.##.....##....##....########..##.....##.##.##.##.##.....##
+// .##.....##.##.....##....##....##.....##.##.....##.##..####.##.....##
+// .##.....##.##.....##....##....##.....##.##.....##.##...###.##.....##
+// .########...#######.....##....########...#######..##....##.########.
+
+                                                                                                                                           
+                                                                                                                                           
+                                                                                                                                           
+    
   }
 }

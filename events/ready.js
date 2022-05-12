@@ -5,17 +5,29 @@ module.exports = {
     async execute(client) {
 
 
-        console.log("  /$$$$$$$              /$$     /$$$$$$$                            /$$")
-        console.log(" | $$__  $$            | $$    | $$__  $$                          | $$")
-        console.log(" | $$  \ $$  /$$$$$$  /$$$$$$  | $$  \ $$ /$$   /$$ /$$$$$$$   /$$$$$$$")
-        console.log(" | $$  | $$ /$$__  $$|_  $$_/  | $$$$$$$ | $$  | $$| $$__  $$ /$$__  $$")
-        console.log(" | $$  | $$| $$  \ $$  | $$    | $$__  $$| $$  | $$| $$  \ $$| $$  | $$")
-        console.log(" | $$  | $$| $$  | $$  | $$ /$$| $$  \ $$| $$  | $$| $$  | $$| $$  | $$")
-        console.log(" | $$$$$$$/|  $$$$$$/  |  $$$$/| $$$$$$$/|  $$$$$$/| $$  | $$|  $$$$$$$")
-        console.log(" |_______/  \______/    \___/  |_______/  \______/ |__/  |__/ \_______/")
 
+        
+               
+               
+        console.log(".########...#######..########.########..##.....##.##....##.########.")
+        console.log(".##.....##.##.....##....##....##.....##.##.....##.###...##.##.....##")
+        console.log(".##.....##.##.....##....##....##.....##.##.....##.####..##.##.....##")
+        console.log(".##.....##.##.....##....##....########..##.....##.##.##.##.##.....##")
+        console.log(".##.....##.##.....##....##....##.....##.##.....##.##..####.##.....##")
+        console.log(".##.....##.##.....##....##....##.....##.##.....##.##...###.##.....##")
+        console.log(".########...#######.....##....########...#######..##....##.########.")
 
-        console.log("\n\nAll Rights are reserved.\n\n\n\nBot Avviato correttamente")
+        
+        
+        
+        
+        
+        
+        
+        
+             
+   
+        console.log("\n\nAll Rights are reserved. DotBund copyright ©\n\n\n\n")
         client.user.setPresence({ activities: [{ name: 'DotBund Services' , type: 'WATCHING' }], status: 'dnd' });
         
 
@@ -27,89 +39,241 @@ module.exports = {
             })
         })
 
+    }
+}
+
         
 
-        const oniChan = client.channels.cache.get('971465805000740911')
-    
-        function sendTicketMSG() {
-            var verifica = new Discord.MessageEmbed()
-            .setColor("#B965EF")
-            .setTitle("**DotBund Verify**")
-            .setDescription("Clicca il bottone qua sotto per verificarti.\n *Verificandoti accetterai anche i tos di questo discord.*")
-            .setFooter("DotBound Services", client.user.avatarURL())
-            .setTimestamp();
 
-            const row = new Discord.MessageActionRow()
-            .addComponents(
-                new Discord.MessageButton()
-                .setLabel('Verificati')
-                .setStyle('PRIMARY')
-                .setCustomId('verifica')
-                .setEmoji('✅'),
-            );
-    
-            oniChan.send({
-            embeds: [verifica],
-            components: [row]
-            })
-        }
-    
-        const toDelete = 10000;
-    
-        async function fetchMore(channel, limit) {
-            if (!channel) {
-            throw new Error(`Expected channel, got ${typeof channel}.`);
-            }
-            if (limit <= 100) {
-            return channel.messages.fetch({
-                limit
-            });
-            }
-    
-            let collection = [];
-            let lastId = null;
-            let options = {};
-            let remaining = limit;
-    
-            while (remaining > 0) {
-            options.limit = remaining > 100 ? 100 : remaining;
-            remaining = remaining > 100 ? remaining - 100 : 0;
-    
-            if (lastId) {
-                options.before = lastId;
-            }
-    
-            let messages = await channel.messages.fetch(options);
-    
-            if (!messages.last()) {
-                break;
-            }
-    
-            collection = collection.concat(messages);
-            lastId = messages.last().id;
-            }
-            collection.remaining = remaining;
-    
-            return collection;
-        }
-    
-        const list = await fetchMore(oniChan, toDelete);
-    
-        let i = 1;
-    
-        list.forEach(underList => {
-            underList.forEach(msg => {
-            i++;
-            if (i < toDelete) {
-                setTimeout(function () {
-                msg.delete()
-                }, 1000 * i)
-            }
-            })
-        })
-    
-        setTimeout(() => {
-            sendTicketMSG()
-        }, i);
-        },
-    };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // __/\\\\\\\\\\\\_________________________________/\\\\\\\\\\\\\_______________________________________/\\\__        
+        // _\/\\\////////\\\______________________________\/\\\/////////\\\____________________________________\/\\\__       
+        //  _\/\\\______\//\\\___________________/\\\______\/\\\_______\/\\\____________________________________\/\\\__      
+        //   _\/\\\_______\/\\\_____/\\\\\_____/\\\\\\\\\\\_\/\\\\\\\\\\\\\\___/\\\____/\\\__/\\/\\\\\\__________\/\\\__     
+        //    _\/\\\_______\/\\\___/\\\///\\\__\////\\\////__\/\\\/////////\\\_\/\\\___\/\\\_\/\\\////\\\____/\\\\\\\\\__    
+        //     _\/\\\_______\/\\\__/\\\__\//\\\____\/\\\______\/\\\_______\/\\\_\/\\\___\/\\\_\/\\\__\//\\\__/\\\////\\\__   
+        //      _\/\\\_______/\\\__\//\\\__/\\\_____\/\\\_/\\__\/\\\_______\/\\\_\/\\\___\/\\\_\/\\\___\/\\\_\/\\\__\/\\\__  
+        //       _\/\\\\\\\\\\\\/____\///\\\\\/______\//\\\\\___\/\\\\\\\\\\\\\/__\//\\\\\\\\\__\/\\\___\/\\\_\//\\\\\\\/\\_ 
+        //        _\////////////________\/////_________\/////____\/////////////_____\/////////___\///____\///___\///////\//__
+       
