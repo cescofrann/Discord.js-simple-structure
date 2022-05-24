@@ -1,6 +1,6 @@
 <h1 align="center">
 DotBund Services
-  <img src="https://media.discordapp.net/attachments/947548338755084318/974777095446220861/Bozza_Footer.png?width=8&height=8">
+  <img src="https://media.discordapp.net/attachments/947548338755084318/974777095446220861/Bozza_Footer.png?width=80&height=80">
   <br>
 </h1>
 
