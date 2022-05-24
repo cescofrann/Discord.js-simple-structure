@@ -19,7 +19,7 @@ double click > start.bat
 }
 ```
 
-![DotBundShop](https://media.discordapp.net/attachments/962372390426394705/974408957068185630/Bozza_2.png?width=513&height=513)
+![DotBundShop](https://media.discordapp.net/attachments/947548338755084318/969906292439281674/unknown.png?width=513&height=513)
 
 
 
