@@ -25,7 +25,7 @@ double click > start.bat
 }
 ```
 
-![DotBundShop](https://media.discordapp.net/attachments/947548338755084318/969906292439281674/unknown.png?width=513&height=513)
+![DotBundShop](https://media.discordapp.net/attachments/947548338755084318/969906292439281674/unknown.png?width=400&height=400)
 
 
 
