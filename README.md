@@ -4,7 +4,6 @@ A simple discord js structor for your bot. It is usefull for slash commands too.
 # To Start the bot
 open cmd:
    npm install discord.js
-   npm install @discordjs/builders
 
 double click > start.bat
 
